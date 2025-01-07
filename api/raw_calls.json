@@ -1,0 +1,463 @@
+{
+    "calls": {
+        "AAC": {
+            "initialized": true,
+            "method": "get",
+            "name": "List/Assets",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1710341092568x181461947660369920.plugin_api.AAC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"List/Asset\",\"fields\":{\"_p_result\":{\"ret_value\":\"list.api.1710341092568x181461947660369920.plugin_api.AAC.result\",\"caption\":\"result\",\"path\":[\"result\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"assets/list\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"54.212.244.54:47652\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"1.661774 ms\",\"path\":[\"info\",\"latency\"]}}},\"plugin_api.AAC.result\":{\"caption\":\"List/Assets result\",\"fields\":{\"_p_owner\":{\"ret_value\":\"text\",\"caption\":\"owner\",\"sample_value\":\"b7cbef6130a99ce1f48515e72e39cb22a5fb451b8d8aec8e7f9de7db5a852bdc\",\"path\":[\"owner\"]},\"_p_version\":{\"ret_value\":\"number\",\"caption\":\"version\",\"sample_value\":1,\"path\":[\"version\"]},\"_p_created\":{\"ret_value\":\"number\",\"caption\":\"created\",\"sample_value\":1691583623,\"path\":[\"created\"]},\"_p_modified\":{\"ret_value\":\"number\",\"caption\":\"modified\",\"sample_value\":1691583623,\"path\":[\"modified\"]},\"_p_type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"OBJECT\",\"path\":[\"type\"]},\"_p_form\":{\"ret_value\":\"text\",\"caption\":\"form\",\"sample_value\":\"ASSET\",\"path\":[\"form\"]},\"_p_Creator's namespace\":{\"ret_value\":\"text\",\"caption\":\"Creator's namespace\",\"sample_value\":\"chad\",\"path\":[\"Creator's namespace\"]},\"_p_Text\":{\"ret_value\":\"text\",\"caption\":\"Text\",\"sample_value\":\"Hello\",\"path\":[\"Text\"]},\"_p_distordia-status\":{\"ret_value\":\"text\",\"caption\":\"distordia-status\",\"sample_value\":\"official\",\"path\":[\"distordia-status\"]},\"_p_distordia-type\":{\"ret_value\":\"text\",\"caption\":\"distordia-type\",\"sample_value\":\"distordia-post\",\"path\":[\"distordia-type\"]},\"_p_quoted address\":{\"ret_value\":\"text\",\"caption\":\"quoted address\",\"sample_value\":0,\"path\":[\"quoted address\"]},\"_p_address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"883uDEhkaaXFKNvh2ep8iragvH9wGn8bPitgVzPipYtEaz1VS7F\",\"path\":[\"address\"]},\"_p_Quoted address\":{\"ret_value\":\"text\",\"caption\":\"Quoted address\",\"sample_value\":0,\"path\":[\"Quoted address\"]},\"_p_Creator-namespace\":{\"ret_value\":\"_ignore\"},\"_p_Distordia-status\":{\"ret_value\":\"_ignore\"},\"_p_Type\":{\"ret_value\":\"_ignore\"},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"distordia-post1-080823\",\"path\":[\"name\"]},\"_p_Creator_namespace\":{\"ret_value\":\"_ignore\"},\"_p_variable_name1\":{\"ret_value\":\"_ignore\"},\"_p_variable_name3\":{\"ret_value\":\"_ignore\"},\"_p_variable_name4\":{\"ret_value\":\"_ignore\"},\"_p_variable_name5\":{\"ret_value\":\"_ignore\"},\"_p_variable_value1\":{\"ret_value\":\"_ignore\"},\"_p_variable1\":{\"ret_value\":\"_ignore\"},\"_p_variable2\":{\"ret_value\":\"_ignore\"},\"_p_Distordia_status\":{\"ret_value\":\"_ignore\"},\"_p_null\":{\"ret_value\":\"text\",\"caption\":\"null\",\"sample_value\":null,\"path\":[\"null\"]}}}}",
+            "url": "[web server:port]assets/list/assets?session=[session]",
+            "url_params": {
+                "AAF": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAG": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAH": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get/Asset",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1710341092568x181461947660369920.plugin_api.AAH",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAH\":{\"caption\":\"Get/Asset\",\"fields\":{\"_p_result.owner\":{\"ret_value\":\"text\",\"caption\":\"owner\",\"sample_value\":\"b7cbef6130a99ce1f48515e72e39cb22a5fb451b8d8aec8e7f9de7db5a852bdc\",\"path\":[\"result\",\"owner\"]},\"_p_result.version\":{\"ret_value\":\"number\",\"caption\":\"version\",\"sample_value\":1,\"path\":[\"result\",\"version\"]},\"_p_result.created\":{\"ret_value\":\"number\",\"caption\":\"created\",\"sample_value\":1691608382,\"path\":[\"result\",\"created\"]},\"_p_result.modified\":{\"ret_value\":\"number\",\"caption\":\"modified\",\"sample_value\":1691608469,\"path\":[\"result\",\"modified\"]},\"_p_result.type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"OBJECT\",\"path\":[\"result\",\"type\"]},\"_p_result.form\":{\"ret_value\":\"text\",\"caption\":\"form\",\"sample_value\":\"ASSET\",\"path\":[\"result\",\"form\"]},\"_p_result.Creator's namespace\":{\"ret_value\":\"text\",\"caption\":\"Creator's namespace\",\"sample_value\":\"chad\",\"path\":[\"result\",\"Creator's namespace\"]},\"_p_result.Quoted address\":{\"ret_value\":\"text\",\"caption\":\"Quoted address\",\"sample_value\":0,\"path\":[\"result\",\"Quoted address\"]},\"_p_result.Text\":{\"ret_value\":\"text\",\"caption\":\"Text\",\"sample_value\":\"New post\",\"path\":[\"result\",\"Text\"]},\"_p_result.distordia-status\":{\"ret_value\":\"text\",\"caption\":\"distordia-status\",\"sample_value\":\"non official\",\"path\":[\"result\",\"distordia-status\"]},\"_p_result.distordia-type\":{\"ret_value\":\"text\",\"caption\":\"distordia-type\",\"sample_value\":\"distordia-post\",\"path\":[\"result\",\"distordia-type\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"87ws3Ve9EBq5Ra5mQqnSH2q9Dwg3XrnZ6ghoWEkRoqunNQXtYZa\",\"path\":[\"result\",\"address\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"assets/get\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"18.236.178.38:45392\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"0.191369 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]assets/get/asset?session=[session]&address=[address]&name=[name]",
+            "url_params": {
+                "AAI": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAJ": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAK": {
+                    "allow_blank": true,
+                    "key": "address",
+                    "private": true,
+                    "value": ""
+                },
+                "AAL": {
+                    "allow_blank": true,
+                    "key": "name",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAM": {
+            "initialized": true,
+            "method": "get",
+            "name": "Create/Asset (basic)",
+            "publish_as": "action",
+            "rank": 3,
+            "ret_value": "api.1710341092568x181461947660369920.plugin_api.AAM",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAM\":{\"caption\":\"Create/Asset (basic)\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"88hYiRT45P4JPMqXWEEVzwJf3URCWAomYmvsogaQ12HtQEGGgFF\",\"path\":[\"result\",\"address\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"017be1d0216788242c3ba45af42a38df68143e8a79ccb09b0c4443f1665eee7adec136c898d06a66e826d8f16c5147bbb5fd7db71d0a3edcdac5db029304f7f1\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"assets/create\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"34.219.156.248:50378\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"5955.351606 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]assets/create/asset?session=[session]&pin=[pin]&name=[name]&format=[format]&[variable_name1]=[variable_value1]&[variable_name2]=[variable_value2]&[variable_name3]=[variable_value3]&[variable_name4]=[variable_value4]",
+            "url_params": {
+                "AAN": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAO": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAP": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                },
+                "AAQ": {
+                    "allow_blank": true,
+                    "key": "name",
+                    "private": true,
+                    "value": ""
+                },
+                "AAR": {
+                    "key": "format",
+                    "private": true,
+                    "value": "basic"
+                },
+                "AAU": {
+                    "allow_blank": true,
+                    "key": "variable_name1",
+                    "private": true,
+                    "value": ""
+                },
+                "AAV": {
+                    "allow_blank": true,
+                    "key": "variable_value1",
+                    "private": true,
+                    "value": ""
+                },
+                "AAW": {
+                    "allow_blank": true,
+                    "key": "variable_name2",
+                    "private": true,
+                    "value": ""
+                },
+                "AAX": {
+                    "allow_blank": true,
+                    "key": "variable_value2",
+                    "private": true,
+                    "value": ""
+                },
+                "AAZ": {
+                    "allow_blank": true,
+                    "key": "variable_name3",
+                    "private": true,
+                    "value": ""
+                },
+                "AAb": {
+                    "allow_blank": true,
+                    "key": "variable_value3",
+                    "private": true,
+                    "value": ""
+                },
+                "AAc": {
+                    "allow_blank": true,
+                    "key": "variable_name4",
+                    "private": true,
+                    "value": ""
+                },
+                "AAd": {
+                    "allow_blank": true,
+                    "key": "variable_value4",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "AAp": {
+            "initialized": true,
+            "method": "get",
+            "name": "Create/Asset (post/quote)",
+            "publish_as": "action",
+            "rank": 4,
+            "ret_value": "api.1710341092568x181461947660369920.plugin_api.AAp",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAp\":{\"caption\":\"Create/Asset (post/quote)\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"883uDEhkaaXFKNvh2ep8iragvH9wGn8bPitgVzPipYtEaz1VS7F\",\"path\":[\"result\",\"address\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"0123c94ad4b1bcf091527fc8de1e20fb629b1de6994b16a6a1a15754cad6085908dccd283161210aea82f39e37c83f5a04fd8e6e9a5ca248902a90fdedc80989\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"assets/create\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"34.222.218.220:55102\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"6099.113464 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]assets/create/asset?session=[session]&pin=[pin]&name=[name]&format=[format]&Text=[Text]&Creator's namespace=[Namespace]&distordia-status=[distordia-status]&Quoted address=[quoted_address]&distordia-type=[distordia-type]",
+            "url_params": {
+                "AAq": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "AAr": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "AAs": {
+                    "key": "pin",
+                    "private": true,
+                    "value": "",
+                    "visibility": "public"
+                },
+                "AAt": {
+                    "allow_blank": true,
+                    "key": "name",
+                    "private": true,
+                    "value": ""
+                },
+                "AAu": {
+                    "key": "format",
+                    "private": true,
+                    "value": "basic"
+                },
+                "ABJ": {
+                    "allow_blank": true,
+                    "key": "Namespace",
+                    "private": true,
+                    "value": ""
+                },
+                "ABK": {
+                    "allow_blank": true,
+                    "key": "Text",
+                    "private": true,
+                    "value": ""
+                },
+                "ABQ": {
+                    "allow_blank": true,
+                    "key": "distordia-status",
+                    "private": true,
+                    "value": "official"
+                },
+                "ABi": {
+                    "key": "distordia-type",
+                    "private": true,
+                    "value": "distordia-"
+                },
+                "ABl": {
+                    "allow_blank": true,
+                    "key": "quoted_address",
+                    "private": true,
+                    "value": "0"
+                }
+            }
+        },
+        "ABm": {
+            "initialized": true,
+            "method": "get",
+            "name": "Update/Asset (post/quote)",
+            "publish_as": "action",
+            "rank": 6,
+            "ret_value": "api.1710341092568x181461947660369920.plugin_api.ABm",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABm\":{\"caption\":\"Update/Asset (post/quote)\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"87ws3Ve9EBq5Ra5mQqnSH2q9Dwg3XrnZ6ghoWEkRoqunNQXtYZa\",\"path\":[\"result\",\"address\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"01013d747abfa7997939806dac1dd7bb3f5df9e424ef504383f04e7b441d5d899cd603d782976794318af6c66341ab3c5513fb23c0c965c438ebe3332aadff2a\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"assets/update\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"54.184.96.242:37108\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"5992.078063 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]assets/update/asset?session=[session]&pin=[pin]&name=[name]&format=[format]&Text=[Text]&Creator's namespace=[Namespace]&distordia-status=[distordia-status]&Quoted address=[quoted_address]&distordia-type=[distordia-type]&address=[address]",
+            "url_params": {
+                "ABn": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "ABo": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "ABp": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                },
+                "ABq": {
+                    "allow_blank": true,
+                    "key": "name",
+                    "private": true,
+                    "value": ""
+                },
+                "ABr": {
+                    "key": "format",
+                    "private": true,
+                    "value": "basic"
+                },
+                "ABu": {
+                    "allow_blank": true,
+                    "key": "distordia-status",
+                    "private": true,
+                    "value": ""
+                },
+                "ABx": {
+                    "allow_blank": true,
+                    "key": "address",
+                    "private": true,
+                    "value": ""
+                },
+                "ABy": {
+                    "key": "Text",
+                    "private": true,
+                    "value": ""
+                },
+                "ABz": {
+                    "allow_blank": true,
+                    "key": "Namespace",
+                    "private": true,
+                    "value": ""
+                },
+                "ACA": {
+                    "allow_blank": true,
+                    "key": "quoted_address",
+                    "private": true,
+                    "value": ""
+                },
+                "ACB": {
+                    "key": "distordia-type",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ACC": {
+            "initialized": true,
+            "method": "get",
+            "name": "Create/Asset (profile)",
+            "publish_as": "action",
+            "rank": 5,
+            "ret_value": "api.1710341092568x181461947660369920.plugin_api.ACC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ACC\":{\"caption\":\"Create/Asset (profile)\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"88hLidGPXa9P5jr5q18uTUKuMFQGcBeiJj6pBX1FStqxMzP9Usv\",\"path\":[\"result\",\"address\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"0192baabe227a67c013f5f6d0d3c62d0de8608fc8b6987ab82c9a8d12ff105d3f0ab8ccbb9f96252450da134b4c4d1b7151674f7e05f36ac7958c80e6c8221b4\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"assets/create\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"52.41.35.54:36364\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"5961.630757 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]assets/create/asset?session=[session]&pin=[pin]&name=[name]&format=[format]&namespace=[namespace]&username=[User name]&distordia-status=[distordia-status]&NXS_account=[NXS_account]&distordia-type=[distordia-type]",
+            "url_params": {
+                "ACD": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "ACE": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "ACF": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                },
+                "ACG": {
+                    "allow_blank": true,
+                    "key": "name",
+                    "private": true,
+                    "value": "distordia-profile"
+                },
+                "ACH": {
+                    "key": "format",
+                    "private": true,
+                    "value": "basic"
+                },
+                "ACK": {
+                    "allow_blank": true,
+                    "key": "distordia-status",
+                    "private": true,
+                    "value": "official"
+                },
+                "ACM": {
+                    "allow_blank": true,
+                    "key": "distordia-type",
+                    "private": true,
+                    "value": "distordia-profile"
+                },
+                "ACO": {
+                    "allow_blank": true,
+                    "key": "User name",
+                    "private": true,
+                    "value": ""
+                },
+                "ACP": {
+                    "key": "NXS_account",
+                    "private": true,
+                    "value": ""
+                },
+                "ACf": {
+                    "allow_blank": true,
+                    "key": "namespace",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ACQ": {
+            "initialized": true,
+            "method": "get",
+            "name": "Get/Asset (profile)",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1710341092568x181461947660369920.plugin_api.ACQ",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ACQ\":{\"caption\":\"Get/Asset (profile)\",\"fields\":{\"_p_result.owner\":{\"ret_value\":\"text\",\"caption\":\"owner\",\"sample_value\":\"b7cbef6130a99ce1f48515e72e39cb22a5fb451b8d8aec8e7f9de7db5a852bdc\",\"path\":[\"result\",\"owner\"]},\"_p_result.version\":{\"ret_value\":\"number\",\"caption\":\"version\",\"sample_value\":1,\"path\":[\"result\",\"version\"]},\"_p_result.created\":{\"ret_value\":\"number\",\"caption\":\"created\",\"sample_value\":1693684701,\"path\":[\"result\",\"created\"]},\"_p_result.modified\":{\"ret_value\":\"number\",\"caption\":\"modified\",\"sample_value\":1693684701,\"path\":[\"result\",\"modified\"]},\"_p_result.type\":{\"ret_value\":\"text\",\"caption\":\"type\",\"sample_value\":\"OBJECT\",\"path\":[\"result\",\"type\"]},\"_p_result.form\":{\"ret_value\":\"text\",\"caption\":\"form\",\"sample_value\":\"ASSET\",\"path\":[\"result\",\"form\"]},\"_p_result.NXS_account\":{\"ret_value\":\"text\",\"caption\":\"NXS_account\",\"sample_value\":\"test\",\"path\":[\"result\",\"NXS_account\"]},\"_p_result.distordia-status\":{\"ret_value\":\"text\",\"caption\":\"distordia-status\",\"sample_value\":\"official\",\"path\":[\"result\",\"distordia-status\"]},\"_p_result.distordia-type\":{\"ret_value\":\"text\",\"caption\":\"distordia-type\",\"sample_value\":\"distordia-profile\",\"path\":[\"result\",\"distordia-type\"]},\"_p_result.username\":{\"ret_value\":\"text\",\"caption\":\"username\",\"sample_value\":\"Full Name\",\"path\":[\"result\",\"username\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"88hLidGPXa9P5jr5q18uTUKuMFQGcBeiJj6pBX1FStqxMzP9Usv\",\"path\":[\"result\",\"address\"]},\"_p_result.name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"distordia-profile\",\"path\":[\"result\",\"name\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"assets/get\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"34.219.46.116:53856\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"0.224492 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]assets/get/asset?session=[session]&address=[address]&name=[name]",
+            "url_params": {
+                "ACR": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "ACS": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "ACT": {
+                    "allow_blank": true,
+                    "key": "address",
+                    "private": true,
+                    "value": ""
+                },
+                "ACU": {
+                    "allow_blank": true,
+                    "key": "name",
+                    "private": true,
+                    "value": "distordia-profile"
+                }
+            }
+        },
+        "ACV": {
+            "initialized": true,
+            "method": "get",
+            "name": "Update/Asset (profile)",
+            "publish_as": "action",
+            "rank": 7,
+            "ret_value": "api.1710341092568x181461947660369920.plugin_api.ACV",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ACV\":{\"caption\":\"Update/Asset (profile)\",\"fields\":{\"_p_result.success\":{\"ret_value\":\"boolean\",\"caption\":\"success\",\"sample_value\":true,\"path\":[\"result\",\"success\"]},\"_p_result.address\":{\"ret_value\":\"text\",\"caption\":\"address\",\"sample_value\":\"88hLidGPXa9P5jr5q18uTUKuMFQGcBeiJj6pBX1FStqxMzP9Usv\",\"path\":[\"result\",\"address\"]},\"_p_result.txid\":{\"ret_value\":\"text\",\"caption\":\"txid\",\"sample_value\":\"016c4c66f83efa359dc8f95d7350a986586a6a91fcddfe152778d02bee44dee307491c85b7f59cc4d24ce5f5b2ac467ee5469132afa044690042ae40a1e055d2\",\"path\":[\"result\",\"txid\"]},\"_p_info.method\":{\"ret_value\":\"text\",\"caption\":\"info method\",\"sample_value\":\"assets/update\",\"path\":[\"info\",\"method\"]},\"_p_info.status\":{\"ret_value\":\"text\",\"caption\":\"info status\",\"sample_value\":\"active\",\"path\":[\"info\",\"status\"]},\"_p_info.address\":{\"ret_value\":\"text\",\"caption\":\"info address\",\"sample_value\":\"34.216.227.240:60736\",\"path\":[\"info\",\"address\"]},\"_p_info.latency\":{\"ret_value\":\"text\",\"caption\":\"info latency\",\"sample_value\":\"5966.549436 ms\",\"path\":[\"info\",\"latency\"]}}}}",
+            "url": "[web server:port]assets/update/asset?session=[session]&pin=[pin]&name=[name]&format=[format]&namespace=[namespace]&username=[User name]&distordia-status=[distordia-status]&NXS_account=[NXS_account]&distordia-type=[distordia-type]",
+            "url_params": {
+                "ACW": {
+                    "key": "web server:port",
+                    "private": true,
+                    "value": "http://private.nexus.io:7080/"
+                },
+                "ACX": {
+                    "key": "session",
+                    "private": true,
+                    "value": ""
+                },
+                "ACY": {
+                    "key": "pin",
+                    "private": true,
+                    "value": ""
+                },
+                "ACZ": {
+                    "key": "name",
+                    "private": true,
+                    "value": "distordia-profile"
+                },
+                "ACa": {
+                    "key": "format",
+                    "private": true,
+                    "value": "basic"
+                },
+                "ACb": {
+                    "allow_blank": true,
+                    "key": "User name",
+                    "private": true,
+                    "value": ""
+                },
+                "ACc": {
+                    "allow_blank": true,
+                    "key": "distordia-status",
+                    "private": true,
+                    "value": "official"
+                },
+                "ACd": {
+                    "allow_blank": true,
+                    "key": "NXS_account",
+                    "private": true,
+                    "value": ""
+                },
+                "ACe": {
+                    "allow_blank": true,
+                    "key": "distordia-type",
+                    "private": true,
+                    "value": "distordia-profile"
+                },
+                "ACg": {
+                    "allow_blank": true,
+                    "key": "namespace",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        }
+    },
+    "human": "Nexus Assets API"
+}
